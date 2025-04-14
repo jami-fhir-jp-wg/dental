@@ -6,8 +6,8 @@
 id: jp.core.dental
 canonical: http://jpfhir.jp/dental
 name: JPCoreDental
-# title: Example Title
-# description: Example Implementation Guide for getting started with SUSHI
+title: "JP Core dental experiments"
+description: "Dental分科会で開発中の実験Profile"
 status: draft # draft | active | retired | unknown
 version: 0.1.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
@@ -19,6 +19,10 @@ publisher:
   name: JP Core Dental
   url: http://jpfhir.jp/jp-core
   # email: test@example.org
+dependencies:
+  jpfhir-terminology.r4:
+    uri: http://jpfhir.jp/fhir/jpfhir-terminology/ImplementationGuide/
+    version: 1.3.0
 
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced
